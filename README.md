@@ -2,6 +2,6 @@
 ---
 - Decompile was made using uTiny reaper
 
--Project created on Unity
+- Project created on Unity
 
 - Nothing personal, just decompile
