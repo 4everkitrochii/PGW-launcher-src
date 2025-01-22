@@ -1,7 +1,7 @@
 **Decompiled source code of "Pixel Gun World" launcher**
 ---
-- Decompile was made using uTiny reaper
+- Decompile was made using UtinyRipper (https://github.com/mafaca/UtinyRipper)
 
-- Project created on Unity
+- Original project - https://pgun.rilisoft.info/
 
 - Nothing personal, just decompile
