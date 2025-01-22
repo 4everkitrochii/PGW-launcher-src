@@ -1,0 +1,871 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1332992750933816}
+  m_IsPrefabParent: 1
+--- !u!1 &1332992750933816
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4358510697646261}
+  - component: {fileID: 114529738272532628}
+  m_Layer: 0
+  m_Name: i2languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4358510697646261
+Transform:
+  m_GameObject: {fileID: 1332992750933816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114529738272532628
+MonoBehaviour:
+  m_GameObject: {fileID: 1332992750933816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5192333fe1e71134cb9fa7468766a969, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Google_WebServiceURL:
+  Google_SpreadsheetKey:
+  Google_SpreadsheetName:
+  Google_LastUpdatedVersion:
+  GoogleUpdateFrequency: 3
+  mTerms:
+  - Term: start.auth.help_btn
+    TermType: 0
+    Description: Кнопка "ПОДДЕРЖКА" на стартовом экране
+    Languages:
+    - Support
+    - ПОДДЕРЖКА
+    - サポート
+    - Unterstützung
+    - Soutien
+    - Ayuda
+    - Hjälp
+  - Term: MINI
+    TermType: 1
+    Description:
+    Languages:
+    - UI/Fonts/MINI
+    - UI/Fonts/MINI
+    - UI/Fonts/MINI
+    - UI/Fonts/MINI
+    - UI/Fonts/MINI
+    - UI/Fonts/MINI
+    - UI/Fonts/MINI
+  - Term: start.auth.email_input
+    TermType: 0
+    Description: поле ввода "E-MAIL"
+    Languages:
+    - E-MAIL
+    - E-MAIL
+    - 電子メール
+    - E-MAIL
+    - E-MAIL
+    - E-MAIL
+    - E-POST
+  - Term: start.auth.pass_input
+    TermType: 0
+    Description: поле ввода "ПАРОЛЬ"
+    Languages:
+    - Password
+    - ПАРОЛЬ
+    - パスワード
+    - Passwort
+    - Mot de passe
+    - Contraseña
+    - Lösenord
+  - Term: start.auth.rem_net
+    TermType: 0
+    Description: поле - "Оставаться в сети"
+    Languages:
+    - 'Keep me logged in '
+    - Запомнить
+    - 'ログイン状態を維持する '
+    - 'Ich bleibe eingeloggt '
+    - 'Gardez-moi connecté '
+    - 'Mantenerme conectado '
+    - 'Håll mig inloggad '
+  - Term: start_auth_forgot_pass
+    TermType: 0
+    Description: поле "Забыли пароль?"
+    Languages:
+    - Forgotten your password?
+    - Забыли пароль?
+    - パスワードをお忘れですか？
+    - Haben Sie Ihr Passwort vergessen?
+    - Vous avez oublié votre mot de passe ?
+    - ¿Ha olvidado su contraseña?
+    - Glömt lösenordet?
+  - Term: start.auth.enter_btn
+    TermType: 0
+    Description: Кнопка "ВОЙТИ"
+    Languages:
+    - Enter
+    - ВОЙТИ
+    - 入る
+    - Eingabe
+    - Entrer
+    - Entrar
+    - Ange
+  - Term: start.auth.need_register
+    TermType: 0
+    Description: поле "ЕЩЕ НЕ ЗАРЕГИСТРИРОВАНЫ?"
+    Languages:
+    - Not registered yet?
+    - ЕЩЕ НЕ ЗАРЕГИСТРИРОВАНЫ?
+    - まだ登録されていませんか？
+    - Noch nicht registriert?
+    - Vous n'êtes pas encore inscrit ?
+    - ¿Aún no se ha registrado?
+    - Inte registrerad ännu?
+  - Term: start.auth.create_akk_btn
+    TermType: 0
+    Description: кнопка "СОЗДАТЬ АККАУНТ"
+    Languages:
+    - Сreate an account
+    - СОЗДАТЬ АККАУНТ
+    - アカウントを作成する
+    - Сerstellen Sie ein Konto
+    - Créer un compte
+    - Сrear una cuenta
+    - Skapa ett konto
+  - Term: Play-Regular
+    TermType: 1
+    Description:
+    Languages:
+    - UI/Fonts/Play-Regular
+    - UI/Fonts/Play-Regular
+    - UI/Fonts/Play-Regular
+    - UI/Fonts/Play-Regular
+    - UI/Fonts/Play-Regular
+    - UI/Fonts/Play-Regular
+    - UI/Fonts/Play-Regular
+  - Term: start.reg.reg_btn
+    TermType: 0
+    Description: поле "РЕГИСТРАЦИЯ АККАУНТА"
+    Languages:
+    - Registration of the account
+    - РЕГИСТРАЦИЯ АККАУНТА
+    - 口座登録
+    - Registrierung des Kontos
+    - Enregistrement du compte
+    - Registro de la cuenta
+    - Registrering av konto
+  - Term: start.reg.email_desc
+    TermType: 0
+    Description: поле "Ваш действующий e-mail будет использоваться лдя входа в игру"
+    Languages:
+    - Your valid e-mail address will be used to enter the system
+    - Ваш действующий e-mail будет использоваться для входа в игру
+    - 有効なEメールアドレスは、システム入力に使用されます。
+    - Ihre gültige E-Mail-Adresse wird für den Zugang zum System verwendet
+    - Votre adresse e-mail valide sera utilisée pour entrer dans le système.
+    - Su dirección de correo electrónico válida se utilizará para entrar en el sistema
+    - Din giltiga e-postadress kommer att användas för att komma in i systemet
+  - Term: start.reg.pass_desc
+    TermType: 0
+    Description: поле "От 6 до 20 символов"
+    Languages:
+    - From 6 to 20 symbols
+    - От 6 до 20 символов
+    - 6～20シンボル
+    - Von 6 bis 20 Symbole
+    - De 6 à 20 symboles
+    - De 6 a 20 símbolos
+    - Från 6 till 20 symboler
+  - Term: start.reg.nick
+    TermType: 0
+    Description: поле "НИК"
+    Languages:
+    - Name
+    - ИМЯ
+    - 名前
+    - Name
+    - Nom
+    - Nombre
+    - Namn
+  - Term: start.reg.rules
+    TermType: 0
+    Description: Поле "Я прочитал пользовательское соглашение и правила конфиденциальности"
+    Languages:
+    - '[8EB4E8] I have read and agree with the [-] [url="http://pgun.rilisoft.info/rules"][b]Game Rules[/b][/url]'
+    - '[8EB4E8] Я прочитал и согласен с [-] [url="http://pgun.rilisoft.info/rules"][b]Правилами игры[/b][/url]'
+    - '[8EB4E8] [-] [url="http://pgun.rilisoft.info/rules"][b]ゲーム ルール[/b][/url] [8EB4E8] を読み、同意します。'
+    - '[8EB4E8] Ich habe die [-] [url="http://pgun.rilisoft.info/rules"][b]Spielregeln[/b][/url] [8EB4E8]gelesen und stimme ihnen zu '
+    - '[8EB4E8] J''ai lu et j''accepte les [-] [url="http://pgun.rilisoft.info/rules"][b]Règles du jeu[/b][/url] [8EB4E8]'
+    - '[8EB4E8] He leído y acepto las [-] [url="http://pgun.rilisoft.info/rules"][b]Reglas del juego[/b][/url] [8EB4E8]'
+    - '[8EB4E8] Jag har läst och håller med om [-] [url="http://pgun.rilisoft.info/rules"][b]Spelreglerna[/b][/url] [8EB4E8]'
+  - Term: start.reg.create_akk
+    TermType: 0
+    Description: кнопка "Создать аккаунт"
+    Languages:
+    - Сreate an account
+    - Создать аккаунт
+    - アカウントを作成する
+    - Сerstellen Sie ein Konto
+    - Créer un compte
+    - Сrear una cuenta
+    - Skapa ett konto
+  - Term: game.site_page
+    TermType: 0
+    Description: закладка "САЙТ"
+    Languages:
+    - Site
+    - САЙТ
+    - ウェブサイト
+    - Website
+    - Site web
+    - Página web
+    - Webbplats
+  - Term: game.news
+    TermType: 0
+    Description: закладка "НОВОСТИ"
+    Languages:
+    - about
+    - О нас
+    - について
+    - über
+    - à propos de
+    - acerca de
+    - om
+  - Term: game.help
+    TermType: 0
+    Description: закладка "ПОМОЩЬ"
+    Languages:
+    - Discord
+    - Дискорд
+    - ディスコード
+    - Diskord
+    - Discord
+    - Discord
+    - Discord
+  - Term: game.forum
+    TermType: 0
+    Description: закладка "ФОРУМ"
+    Languages:
+    - Wiki
+    - Вики
+    - ウィキ
+    - Wiki
+    - Wiki
+    - Wiki
+    - Wiki
+  - Term: game.news.back_btn
+    TermType: 0
+    Description: кнопка "ВЕРНУТЬСЯ"
+    Languages:
+    - Return
+    - ВЕРНУТЬСЯ
+    - 戻る
+    - Rückkehr
+    - Retour
+    - Devolución
+    - Återgång
+  - Term: game.dwnl.game_btn
+    TermType: 0
+    Description: кнопка "ИГРАТЬ"
+    Languages:
+    - Play
+    - ИГРАТЬ
+    - プレー
+    - Spielen
+    - Jouer
+    - Jugar
+    - Spela
+  - Term: game.dwnl.again
+    TermType: 0
+    Description: кнопка с сообщением "ЕЩЕ РАЗ!"
+    Languages:
+    - One more time!
+    - ЕЩЕ РАЗ!
+    - もう1度だけ！
+    - Noch ein Mal!
+    - Encore une fois !
+    - ¡Una vez más!
+    - En gång till!
+  - Term: auth.registration
+    TermType: 0
+    Description: Статус сообщение о начале регистрации
+    Languages:
+    - Registration. Please, wait…
+    - Регистрация. Пожалуйста, подождите...
+    - 登録 お待ちください...
+    - Anmeldung. Bitte, warten Sie...
+    - Enregistrement. Veuillez patienter...
+    - Inscripción. Por favor, espere...
+    - Registrerar. Vänligen vänta...
+  - Term: auth.auto_register
+    TermType: 0
+    Description: Статус сообщение о авторегистрации
+    Languages:
+    - Registration. Please, wait…
+    - Регистрация. Пожалуйста, подождите...
+    - 登録 お待ちください...
+    - Anmeldung. Bitte, warten Sie...
+    - Enregistrement. Veuillez patienter...
+    - Inscripción. Por favor, espere...
+    - Registrerar. Vänligen vänta...
+  - Term: auth.reg_complete
+    TermType: 0
+    Description: Статус сообщение окончания регистрации
+    Languages:
+    - Registration is over!
+    - Регистрация завершена!
+    - 登録は終了した！
+    - Die Registrierung ist beendet!
+    - L'inscription est terminée !
+    - Se acabó el plazo de inscripción
+    - Registreringen är avslutad!
+  - Term: auth.auth
+    TermType: 0
+    Description: Статус сообщение аутентификации
+    Languages:
+    - Authentification. Please, wait
+    - Аутентификация. Пожалуйста, подождите...
+    - 認証。お待ちください。
+    - Authentifizierung. Bitte, warten
+    - Authentification. Veuillez patienter
+    - Autentificación. Por favor, espere.
+    - Autentisering. Snälla, vänta
+  - Term: auth.complete
+    TermType: 0
+    Description: Статус сообщение о оконачании аутентификации
+    Languages:
+    - Authentification is complete!
+    - Аутентификация выполнена!
+    - 認証が完了した！
+    - Die Authentifizierung ist abgeschlossen!
+    - L'authentification est terminée !
+    - Autentificación completada.
+    - Autentiseringen är slutförd!
+  - Term: requeststatus.netw_error
+    TermType: 0
+    Description: Статус запроса
+    Languages:
+    - Network error
+    - Ошибка сетевого соединения
+    - ネットワークエラー
+    - Netzwerkfehler
+    - Erreur de réseau
+    - Error de red
+    - Nätverksfel
+  - Term: requeststatus.bad_request
+    TermType: 0
+    Description: статус запроса
+    Languages:
+    - Some keys coincide
+    - В назначенных клавишах управления есть совпадения
+    - いくつかのキーは一致している
+    - Einige Schlüssel stimmen überein
+    - Certaines clés coïncident
+    - Algunas claves coinciden
+    - Vissa tangenter sammanfaller
+  - Term: requeststatus.email_error
+    TermType: 0
+    Description: Статус запроса
+    Languages:
+    - Invalid e-mail!
+    - Неправильный email
+    - 無効な電子メールです！
+    - Ungültige E-Mail!
+    - E-mail non valide !
+    - Correo electrónico no válido
+    - Ogiltigt e-postmeddelande!
+  - Term: requeststatus.email_exist
+    TermType: 0
+    Description: Статус запроса
+    Languages:
+    - This e-mail is already registered
+    - Такой email уже существует
+    - この電子メールはすでに登録されています
+    - Diese E-Mail ist bereits registriert
+    - Cet e-mail est déjà enregistré
+    - Este correo electrónico ya está registrado
+    - Denna e-postadressen är redan registrerat
+  - Term: requeststatus.nick_error
+    TermType: 0
+    Description: Статус запроса
+    Languages:
+    - Invalid name
+    - Неправильное имя
+    - 無効な名前
+    - Ungültiger Name
+    - Nom invalide
+    - Nombre no válido
+    - Ogiltigt namn
+  - Term: requeststatus.nick_exist
+    TermType: 0
+    Description: Статус запроса
+    Languages:
+    - This name is already used
+    - Такое имя уже занято
+    - この名前はすでに使用されている
+    - Dieser Name wird bereits verwendet
+    - Ce nom est déjà utilisé
+    - Este nombre ya se utiliza
+    - Detta namn är redan använt
+  - Term: requeststatus.email_notfound
+    TermType: 0
+    Description: Статус запроса
+    Languages:
+    - 'This email does not exist '
+    - Такой email не существует
+    - 'このメールは存在しません '
+    - 'Diese E-Mail existiert nicht '
+    - 'Cet e-mail n''existe pas '
+    - 'Este correo electrónico no existe '
+    - Denna e-postadressen finns inte
+  - Term: requeststatus.pass_not_match
+    TermType: 0
+    Description: Статус запроса
+    Languages:
+    - Invalid password
+    - Неправильный пароль
+    - 無効なパスワード
+    - Ungültiges Passwort
+    - Mot de passe invalide
+    - Contraseña no válida
+    - Lösenordet är ogiltigt
+  - Term: requeststatus.need_reauth
+    TermType: 0
+    Description: Статус запроса
+    Languages:
+    - Re-authorization is needed
+    - Требуется повторная авторизация
+    - 再承認が必要
+    - Erneute Autorisierung ist erforderlich
+    - Une nouvelle autorisation est nécessaire
+    - Es necesaria una nueva autorización
+    - Ny auktorisering krävs
+  - Term: requeststatus.server_error
+    TermType: 0
+    Description: Статус запроса
+    Languages:
+    - Examine the network communication and try again.
+    - Невозможно подключиться к серверу. Проверьте подключение к сети и повторите попытку
+    - ネットワーク通信を調べ、もう一度試してください。
+    - Überprüfen Sie die Netzwerkkommunikation und versuchen Sie es erneut.
+    - Examinez la communication réseau et réessayez.
+    - Examine la comunicación de red e inténtelo de nuevo.
+    - Kontrollera nätverkskommunikationen och försök igen.
+  - Term: requeststatus.proj_stopped
+    TermType: 0
+    Description: Статус запроса
+    Languages:
+    - The game is temporarily unavailable.
+    - Игра временно недоступна
+    - ゲームは一時的に利用できません。
+    - Das Spiel ist vorübergehend nicht verfügbar.
+    - Le jeu est temporairement indisponible.
+    - El juego no está disponible temporalmente.
+    - Spelet är tillfälligt otillgängligt.
+  - Term: requeststatus.ip_blocked
+    TermType: 0
+    Description: Статус запроса
+    Languages:
+    - Your IP address is banned!
+    - Ваш IP адрес забанен!
+    - あなたのIPアドレスは禁止されています！
+    - Ihre IP-Adresse ist gesperrt!
+    - Votre adresse IP est interdite !
+    - Su dirección IP está prohibida.
+    - Din IP-adress är förbjuden!
+  - Term: requeststatus.user_banned
+    TermType: 0
+    Description: статус запроса
+    Languages:
+    - You are banned!
+    - Вы забанены!
+    - 出入り禁止だ！
+    - Sie sind verbannt!
+    - Vous êtes banni !
+    - ¡Estás expulsado!
+    - Du är förbjuden!
+  - Term: auth.email_pass_error
+    TermType: 0
+    Description: Сообщение при пустом поле пароля или email
+    Languages:
+    - Invalid e-mail or password!
+    - Неправильный email или пароль!
+    - 電子メールまたはパスワードが無効です！
+    - Ungültige E-Mail oder Passwort!
+    - E-mail ou mot de passe invalide !
+    - Correo electrónico o contraseña no válidos.
+    - E-post eller lösenord ogiltigt!
+  - Term: downl.please_wait
+    TermType: 0
+    Description: Окно загрузки, статус сообщение
+    Languages:
+    - Please, wait
+    - Пожалуйста, подождите...
+    - お待ちください
+    - Bitte warten
+    - Attendez, s'il vous plaît
+    - Por favor, espere.
+    - Snälla, vänta
+  - Term: downl.netw_error
+    TermType: 0
+    Description: Окно загрузки, статус сообщение
+    Languages:
+    - Examine the network communication and try again
+    - Проверьте соединение с интернетом и попробуйте еще раз!
+    - ネットワーク通信を調べ、もう一度試してください。
+    - Überprüfen Sie die Netzwerkkommunikation und versuchen Sie es erneut
+    - Examinez la communication réseau et réessayez
+    - Examine la comunicación de red e inténtelo de nuevo
+    - Undersök nätverkskommunikationen och försök igen
+  - Term: downl.launcher_update
+    TermType: 0
+    Description: Окно загрузки, статус сообщение
+    Languages:
+    - The launcher is being updated
+    - Обновление лаунчера
+    - ランチャーは更新中です
+    - Der Launcher wird gerade aktualisiert
+    - Le lanceur est en cours de mise à jour
+    - El lanzador se está actualizando
+    - Launchern håller på att uppdateras
+  - Term: downl.need_restart
+    TermType: 0
+    Description: Окно загрузки, статус сообщение
+    Languages:
+    - You need to restart the application!
+    - Требуется перезапуск приложения!
+    - アプリケーションを再起動する必要があります！
+    - Sie müssen die Anwendung neu starten!
+    - Vous devez redémarrer l'application !
+    - Es necesario reiniciar la aplicación.
+    - Du måste starta om applikationen!
+  - Term: downl.game_update
+    TermType: 0
+    Description: Окно загрузки, статус сообщение
+    Languages:
+    - Game updates
+    - Обновление игры
+    - ゲームのアップデート
+    - Spiel-Updates
+    - Mise à jour du jeu
+    - Actualizaciones del juego
+    - Spel Uppdatering
+  - Term: downl.game_unpack
+    TermType: 0
+    Description: Окно загрузки, статус сообщение
+    Languages:
+    - Extracting the game
+    - Разархивирование игры
+    - ゲームの解凍
+    - Entpacken Sie das Spiel
+    - Dézipper le jeu
+    - Descomprimiendo el juego
+    - Packar upp spelet
+  - Term: downl.progress
+    TermType: 0
+    Description: Окно загрузки, статус сообщение
+    Languages:
+    - Progress
+    - Прогресс
+    - 進捗状況
+    - Fortschritt
+    - Progression
+    - Progreso
+    - Progress
+  - Term: downl.update_not_needs
+    TermType: 0
+    Description: Окно загрузки, статус сообщение
+    Languages:
+    - You don't need to update the game
+    - Обновление не требуется
+    - ゲームをアップデートする必要はない
+    - Sie brauchen das Spiel nicht zu aktualisieren
+    - Vous n'avez pas besoin de mettre à jour le jeu
+    - No es necesario actualizar el juego
+    - Du behöver inte uppdatera spelet
+  - Term: downl.play
+    TermType: 0
+    Description: Окно загрузки, статус сообщение
+    Languages:
+    - Play!
+    - ИГРАТЬ!
+    - プレーだ！
+    - Spielen!
+    - Jouer !
+    - ¡A jugar!
+    - Spela!
+  - Term: downl.needs_auth
+    TermType: 0
+    Description: Окно загрузки, статус сообщение
+    Languages:
+    - You need to be authorized!
+    - Требуется пройти авторизацию!
+    - 承認が必要だ！
+    - Sie brauchen eine Genehmigung!
+    - Vous devez être autorisé !
+    - ¡Necesitas autorización!
+    - Du måste vara auktoriserad!
+  - Term: dwnl.progress_from
+    TermType: 0
+    Description: Часть предложения используемая в прогрессе загрузки
+    Languages:
+    - 'out of '
+    - из
+    - 'より '
+    - 'aus '
+    - 'téléchargé sur '
+    - 'de '
+    - 'av '
+  - Term: dwnl.progress_at
+    TermType: 0
+    Description: Часть предложения используемая в прогрессе загрузки
+    Languages:
+    - 'at '
+    - при
+    - 'で '
+    - 'unter '
+    - 'à '
+    - 'en '
+    - 'vid '
+  - Term: start.reg.pass_show
+    TermType: 0
+    Description: Показать пароль
+    Languages:
+    - '[8EB4E8]Show password[-] '
+    - '[8EB4E8]Показать пароль[-]'
+    - '[8EB4E8]パスワードを表示する[-]。'
+    - '[8EB4E8]Passwort anzeigen[-] '
+    - '[8EB4E8]Afficher le mot de passe[-] '
+    - '[8EB4E8]Mostrar contraseña[-] '
+    - '[8EB4E8]Visa lösenord[-] '
+  - Term: window.logout.btn.cancel
+    TermType: 0
+    Description: Отмена
+    Languages:
+    - Cancel
+    - Отмена
+    - キャンセル
+    - Abbrechen
+    - Annuler
+    - Cancelar
+    - Avbryt
+  - Term: window.logout.text.1
+    TermType: 0
+    Description: Вы уверены, что хотите прервать загрузку и выйти?
+    Languages:
+    - Are you sure that you want to stop downloading and exit?
+    - Вы уверены, что хотите прервать загрузку и выйти?
+    - 本当にダウンロードを中止して終了しますか？
+    - Sind Sie sicher, dass Sie das Herunterladen beenden und die Seite verlassen möchten?
+    - Êtes-vous sûr de vouloir arrêter le téléchargement et quitter ?
+    - ¿Está seguro de que desea detener la descarga y salir?
+    - Är du säker på att du vill stoppa nedladdningen och avsluta?
+  - Term: window.logout.text.2
+    TermType: 0
+    Description:
+    Languages:
+    - Are you sure that you want to stop un-zipping and exit?
+    - Вы уверены, что хотите прервать разархивирование и выйти?
+    - ジッパーを下ろして退場するのを本当に止めますか？
+    - Sind Sie sicher, dass Sie den Reißverschluss nicht mehr öffnen und den Raum verlassen wollen?
+    - Êtes-vous sûr de vouloir arrêter de dézipper et de sortir ?
+    - ¿Estás seguro de que quieres dejar de descomprimir y salir?
+    - Är du säker på att du vill sluta packa upp spelet och avsluta?
+  - Term: window.logout.text.0
+    TermType: 0
+    Description: Вы уверены, что хотите выйти?
+    Languages:
+    - Are you sure you want to log out of your account?
+    - Вы уверены, что хотите выйти из своей учетной записи?
+    - 本当にアカウントからログアウトしますか？
+    - Sind Sie sicher, dass Sie sich von Ihrem Konto abmelden möchten?
+    - Êtes-vous sûr de vouloir vous déconnecter de votre compte ?
+    - ¿Seguro que quieres salir de tu cuenta?
+    - Är du säker på att du vill logga ut från ditt konto?
+  - Term: requeststatus.no_beta_access
+    TermType: 0
+    Description: 'Пользователь не приглашен в ЗБТ '
+    Languages:
+    - Unfortunately, you don't participate in closed beta test
+    - К сожалению, Вы не являетесь участником закрытого бета-тестирования
+    - 残念ながら、クローズドベータテストには参加できません。
+    - Leider können Sie nicht am geschlossenen Betatest teilnehmen.
+    - Malheureusement, vous ne pouvez pas participer au test de la version fermée de la bêta.
+    - Desafortunadamente, usted no participa en la prueba beta cerrada
+    - Tyvärr kan du inte delta i slutna betatester
+  - Term: requeststatus.project_service
+    TermType: 0
+    Description:
+    Languages:
+    - The game is being maintained for optimization. Try again later.
+    - Игра находится на техобслуживании. Зайдите, пожалуйста, позже!
+    - ゲームは最適化のためにメンテナンスされています。後でもう一度お試しください。
+    - Das Spiel wird zur Optimierung gewartet. Versuchen Sie es später noch einmal.
+    - Le jeu fait l'objet d'une maintenance d'optimisation. Réessayez plus tard.
+    - El juego está siendo mantenido para su optimización. Vuelve a intentarlo más tarde.
+    - Spelet underhålls för optimering. Försök igen senare.
+  - Term: auth.pass_error
+    TermType: 0
+    Description: Пароль слишком короткий!
+    Languages:
+    - The password is too short!
+    - Пароль слишком короткий!
+    - パスワードが短すぎる！
+    - Das Passwort ist zu kurz!
+    - Le mot de passe est trop court !
+    - La contraseña es demasiado corta.
+    - Lösenordet är för kort!
+  - Term: requeststatus.pass_not_valid
+    TermType: 0
+    Description: Недопустимый символ!
+    Languages:
+    - Invalid character!
+    - Недопустимый символ!
+    - 無効な文字！
+    - Ungültiges Zeichen!
+    - Caractère non valide !
+    - Carácter no válido.
+    - Ogiltigt tecken!
+  - Term: Game.StartGameAfterInstall
+    TermType: 0
+    Description: Game.StartGameAfterInstall=Запуск игры после установки.
+    Languages:
+    - Launch the game after installation
+    - Запуск игры после установки
+    - インストール後にゲームを起動する
+    - Starten Sie das Spiel nach der Installation
+    - Lancer le jeu après l'installation
+    - Iniciar el juego tras la instalación
+    - Starta spelet efter installationen
+  - Term: ui.register.status.policy
+    TermType: 0
+    Description: Вы не приняли правила и соглашение.
+    Languages:
+    - You didn't accept the game rules.
+    - Вы не приняли правила игры.
+    - ゲームのルールを受け入れませんでした。
+    - Sie haben die Spielregeln nicht akzeptiert.
+    - Vous n'avez pas accepté les règles du jeu.
+    - No aceptaste las reglas del juego.
+    - Du accepterade inte spelreglerna.
+  - Term: requeststatus.pass_not_valid_full
+    TermType: 0
+    Description:
+    Languages:
+    - Use upper-case and lower-case Latin letters, figures and symbols.
+    - Используйте латинские буквы верхнего и нижнего регистра, числа и символы
+    - 大文字と小文字のラテン文字、数字、記号を使用する。
+    - Verwenden Sie lateinische Groß- und Kleinbuchstaben, Zahlen und Symbole.
+    - Utiliser des lettres latines majuscules et minuscules, des chiffres et des symboles.
+    - Utiliza letras latinas mayúsculas y minúsculas, cifras y símbolos.
+    - Använd stora och små latinska bokstäver, siffror och symboler.
+  - Term: start.reg.have_account
+    TermType: 0
+    Description: У вас уже есть аккаунт?
+    Languages:
+    - Do you already have an account?
+    - У вас уже есть аккаунт?
+    - すでにアカウントをお持ちですか？
+    - Haben Sie bereits ein Konto?
+    - Avez-vous déjà un compte ?
+    - Ya tienes una cuenta?
+    - Har du redan ett konto?
+  - Term: start.auth.btn.back
+    TermType: 0
+    Description: Назад
+    Languages:
+    - Back
+    - Назад
+    - 戻る
+    - Zurück
+    - Retour
+    - Volver
+    - Tillbaka
+  - Term: requeststatus.user_banned_to
+    TermType: 0
+    Description:
+    Languages:
+    - You are banned until {0}
+    - Вы забанены до {0}
+    - あなたは{0}まで追放されます。
+    - Sie sind gesperrt bis {0}
+    - Vous êtes banni jusqu'à {0}
+    - Usted está prohibido hasta {0}
+    - Du är avstängd till {0}.
+  - Term: mail_validity
+    TermType: 0
+    Description:
+    Languages:
+    - Get free coins!
+    - Бесплатные монеты!
+    - 無料コインをゲット
+    - Erhalten Sie kostenlose Münzen!
+    - Obtenez des pièces gratuites !
+    - ¡Consigue monedas gratis!
+    - Få gratis mynt!
+  - Term: rd.verify
+    TermType: 0
+    Description:
+    Languages:
+    - You need to verify your account now. (remember to check the spam inbox)
+    - Теперь вам нужно подтвердить свой аккаунт. (не забудьте проверить ящик для спама)
+    - アカウントの確認が必要です。(迷惑メールの受信箱をチェックすることを忘れないでください)
+    - Sie müssen Ihr Konto jetzt verifizieren. (Vergessen Sie nicht, den Spam-Posteingang zu überprüfen)
+    - Vous devez vérifier votre compte maintenant. (n'oubliez pas de vérifier la boîte de réception des spams)
+    - Ahora tienes que verificar tu cuenta. (recuerde comprobar la bandeja de entrada de correo no deseado)
+    - Du måste verifiera ditt konto nu. (kom ihåg att kontrollera skräppost inkorgen)
+  - Term: rd.banned
+    TermType: 0
+    Description:
+    Languages:
+    - You're banned, contact a member of staff if you believe this is a mistake.
+    - Вы заблокированы, обратитесь к сотруднику, если вы считаете, что это ошибка.
+    - あなたは出入り禁止です。これが間違いだと思うなら、スタッフに連絡してください。
+    - Sie sind gesperrt, wenden Sie sich an einen Mitarbeiter, wenn Sie glauben, dass dies ein Fehler ist.
+    - Vous êtes banni, contactez un membre du personnel si vous pensez qu'il s'agit d'une erreur.
+    - Estás expulsado, ponte en contacto con un miembro del personal si crees que se trata de un error.
+    - Du är avstängd, kontakta någon i personalen om du tror att detta är ett misstag.
+  - Term: ui.rob.ok
+    TermType: 0
+    Description:
+    Languages:
+    - OK
+    - ХОРОШО
+    - はい
+    - OK
+    - OK
+    - OK
+    - OK
+  mLanguages:
+  - Name: English
+    Code: en
+  - Name: Russian
+    Code: ru
+  - Name: Japanese
+    Code: ja
+  - Name: German
+    Code: de
+  - Name: French
+    Code: fr
+  - Name: Spanish
+    Code: es
+  - Name: Swedish
+    Code: se
+  CaseInsensitiveTerms: 0
+  Assets: []
+  NeverDestroy: 1
+  UserAgreesToHaveItOnTheScene: 0
