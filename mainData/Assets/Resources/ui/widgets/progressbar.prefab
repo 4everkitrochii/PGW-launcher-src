@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1881110975818453}
+  m_IsPrefabParent: 1
+--- !u!1 &1881110975818453
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4529172192331200}
+  - component: {fileID: 114301275287304013}
+  - component: {fileID: 114740605230354809}
+  - component: {fileID: 114289763658268693}
+  m_Layer: 19
+  m_Name: progressbar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4529172192331200
+Transform:
+  m_GameObject: {fileID: 1881110975818453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -128, y: 74, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4853510564776140}
+  - {fileID: 4012199206429869}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114301275287304013
+MonoBehaviour:
+  m_GameObject: {fileID: 1881110975818453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c39612f4d445c4b9a448810c1f5618, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 392
+  mHeight: 30
+  mDepth: 0
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 13.06667
+  mType: 1
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mAtlas: {fileID: 0}
+  mSpriteName: progress_back
+  mFillCenter: 1
+--- !u!114 &114740605230354809
+MonoBehaviour:
+  m_GameObject: {fileID: 1881110975818453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d49b58969462c9f4f9a297109547f019, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  thumb: {fileID: 4012199206429869}
+  mBG: {fileID: 114301275287304013}
+  mFG: {fileID: 114228270676031948}
+  mValue: 1
+  mFill: 0
+  numberOfSteps: 0
+  onChange: []
+  foreground: {fileID: 0}
+  rawValue: 1
+  direction: 2
+  mInverted: 0
+--- !u!114 &114289763658268693
+MonoBehaviour:
+  m_GameObject: {fileID: 1881110975818453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2596fb6279cbf8d438f54d6460df355d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  numberOfSteps: 32
+  messageLabel: {fileID: 0}
+--- !u!1 &1797497258270831
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4853510564776140}
+  - component: {fileID: 114228270676031948}
+  m_Layer: 19
+  m_Name: Overlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4853510564776140
+Transform:
+  m_GameObject: {fileID: 1797497258270831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.500002, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4529172192331200}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114228270676031948
+MonoBehaviour:
+  m_GameObject: {fileID: 1797497258270831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c39612f4d445c4b9a448810c1f5618, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 4529172192331200}
+    relative: 0
+    absolute: 4
+  rightAnchor:
+    target: {fileID: 4529172192331200}
+    relative: 1
+    absolute: -4
+  bottomAnchor:
+    target: {fileID: 4529172192331200}
+    relative: 0
+    absolute: 3
+  topAnchor:
+    target: {fileID: 4529172192331200}
+    relative: 1
+    absolute: 2
+  updateAnchors: 1
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 384
+  mHeight: 29
+  mDepth: 1
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 13.24138
+  mType: 2
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mAtlas: {fileID: 0}
+  mSpriteName: progress_element
+  mFillCenter: 1
+--- !u!1 &1874721645094327
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4012199206429869}
+  m_Layer: 0
+  m_Name: Thumb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4012199206429869
+Transform:
+  m_GameObject: {fileID: 1874721645094327}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 192, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4529172192331200}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
